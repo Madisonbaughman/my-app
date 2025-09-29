@@ -78,9 +78,9 @@ function Services() {
             <span>
                 I also work holistically with other trusted practitioners to ensure
                 clients receive comprehensive support. When needed, I connect clients
-                with recommended pelvic floor specialists, physical therapists,
+                with my network of recommended pelvic floor specialists, physical therapists,
                 dietitians, and physicians — collaborating across disciplines to help
-                you feel your best.
+                you feel your best. 
             </span>
               </p>
             </div>
