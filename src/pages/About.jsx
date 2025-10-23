@@ -50,7 +50,7 @@ function About() {
           <p>
             Hi, I’m Madison Baughman — both a trainer and a therapist dedicated to helping people move better,
             recover stronger, and thrive at every stage of life. I combine clinical expertise with
-            fitness programming to support health, performance, and long-term resilience.
+            fitness programming to support health, performance, and long-term resilience here in New York City.
           </p>
 
           <p className="mt-4">
