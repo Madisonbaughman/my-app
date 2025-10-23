@@ -1,10 +1,30 @@
-import photo3 from '../assets/stretch1.jpg'
-import photo2 from '../assets/client.jpeg'
-import photo4 from '../assets/city.jpeg'
-import photo5 from '../assets/bridge.jpeg'
-import { useImagesReady } from '../hooks/imagesHook.js'
+import photo3 from '../assets/stretch1.jpg';
+import photo2 from '../assets/client.jpeg';
+import photo4 from '../assets/city.jpeg';
+import photo5 from '../assets/bridge.jpeg';
+import { useImagesReady } from '../hooks/imagesHook.js';
+import { useSEO } from '../hooks/useSEO';  // ✅ add this line
 
 function Services() {
+  // ✅ add this SEO hook call before any rendering logic
+  useSEO({
+    title: 'Services | MBODY Better',
+    description: 'Concierge occupational therapy, certified hand therapy, and rehab-informed personal training in NYC.',
+    og: {
+      title: 'Services | MBODY Better',
+      description: 'Concierge occupational therapy, certified hand therapy, and rehab-informed personal training in NYC.',
+      image: '/apple-touch-icon.png',
+      url: 'https://www.mbodybetter.com/services',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Services | MBODY Better',
+      description: 'Concierge occupational therapy, certified hand therapy, and rehab-informed personal training in NYC.',
+      image: '/apple-touch-icon.png',
+    },
+  });
+
   // preload each image independently (hook expects an array of srcs)
   const heroReady  = useImagesReady([photo3]);
   const card1Ready = useImagesReady([photo2]);
@@ -115,11 +135,10 @@ function Services() {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Services
+export default Services;
