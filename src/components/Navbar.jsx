@@ -6,27 +6,27 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-[#A38C79]">
-      {/* Bar */}
+    <nav className="sticky top-0 z-50 w-full bg-[#A38C79] shadow-md">
       <div className="mx-auto max-w-6xl px-4">
-        <div className="flex h-14 items-center justify-between">
-          {/* Left: brand/logo placeholder (you can swap text for an <img />) */}
-          <Link to="/" className="text-lg font-semibold tracking-wide">
+        {/* Taller navbar for better presence */}
+        <div className="flex h-20 md:h-24 items-center justify-between">
+          {/* Brand */}
+          <Link to="/" className="text-2xl font-semibold tracking-wide">
             MBODY Better
           </Link>
 
           {/* Desktop links */}
-          <ul className="hidden gap-8 md:flex">
+          <ul className="hidden gap-10 md:flex text-lg">
             <li><Link className="hover:underline" to="/">Home</Link></li>
             <li><Link className="hover:underline" to="/about">About</Link></li>
             <li><Link className="hover:underline" to="/services">Services</Link></li>
             <li><Link className="hover:underline" to="/contact">Contact</Link></li>
           </ul>
 
-          {/* Mobile menu button */}
+          {/* Mobile toggle */}
           <button
-            className="md:hidden inline-flex items-center justify-center p-2"
-            onClick={() => setIsOpen((o) => !o)}
+            className="md:hidden inline-flex items-center justify-center p-3"
+            onClick={() => setIsOpen(o => !o)}
             aria-controls="mobile-menu"
             aria-expanded={isOpen}
             aria-label="Toggle menu"
@@ -36,46 +36,26 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile panel */}
+      {/* Mobile menu panel */}
       {isOpen && (
-        <div id="mobile-menu" className="md:hidden border-t border-black/10">
-          <ul className="mx-auto max-w-6xl px-4 py-3 space-y-2">
-            <li>
-              <Link
-                to="/"
-                className="block rounded-md px-3 py-2 hover:bg-black/10"
-                onClick={() => setIsOpen(false)}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="block rounded-md px-3 py-2 hover:bg:black/10 hover:bg-black/10"
-                onClick={() => setIsOpen(false)}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/services"
-                className="block rounded-md px-3 py-2 hover:bg-black/10"
-                onClick={() => setIsOpen(false)}
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="block rounded-md px-3 py-2 hover:bg-black/10"
-                onClick={() => setIsOpen(false)}
-              >
-                Contact
-              </Link>
-            </li>
+        <div id="mobile-menu" className="md:hidden border-t border-black/10 bg-[#A38C79]/90">
+          <ul className="mx-auto max-w-6xl px-4 py-4 space-y-3 text-lg">
+            {[
+              { label: 'Home', to: '/' },
+              { label: 'About', to: '/about' },
+              { label: 'Services', to: '/services' },
+              { label: 'Contact', to: '/contact' },
+            ].map(item => (
+              <li key={item.to}>
+                <Link
+                  to={item.to}
+                  className="block rounded-md px-3 py-2 hover:bg-black/10"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       )}
