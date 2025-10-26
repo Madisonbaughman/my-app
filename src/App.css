@@ -1,18 +1,15 @@
+/* Keep #root background as a safety net in case other CSS loads first */
 #root {
-  
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: #BAAA91; /* same tan */
 }
 
-
+/* (Optional) Your existing animations can stay */
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: no-preference) {

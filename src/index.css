@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* ✅ Custom reusable button class */
+/* ✅ Custom reusable classes */
 @layer components {
   .btn {
     @apply rounded-lg border border-transparent py-2.5 px-5 text-base font-medium
@@ -9,11 +9,11 @@
            focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-500;
   }
   .navbr {
-    @apply flex flex-row justify-between w-full h-18 md:h-20 lg:h-22 
+    @apply flex flex-row justify-between w-full h-18 md:h-20 lg:h-22;
   }
- .navcontents {
-    @apply flex flex-row justify-evenly h-full text-xl
-  } 
+  .navcontents {
+    @apply flex flex-row justify-evenly h-full text-xl;
+  }
   .img-rounded {
     @apply rounded-lg;
   }
@@ -25,15 +25,16 @@
   }
 }
 
+/* ✅ Lock to your tan theme and prevent dark-mode overrides */
 :root {
-  font-family:'Cormorant Garamond', serif;
+  color-scheme: light; /* do not auto-switch to dark */
+  font-family: 'Cormorant Garamond', serif;
   line-height: 1.5;
   font-weight: 800;
   font-size: large;
 
-  color-scheme: light dark;
   color: #0a0706;
-  background-color: #BAAA91;
+  background-color: #BAAA91; /* your tan */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -41,6 +42,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ✅ Ensure every top-level container has the tan background */
+html, body, #root {
+  min-height: 100%;
+  background-color: #BAAA91;
+}
+
+body {
+  margin: 0;
+  min-width: 100px;
+  min-height: 100dvh; /* helps iOS Safari chrome area */
+}
+
+/* Links */
 a {
   font-weight: 500;
   color: #05061d;
@@ -50,28 +64,15 @@ a:hover {
   color: #565769;
 }
 
-body {
-  margin: 0; 
-  min-width: 100px;
-  min-height: 50vh; 
-}
-
+/* Headings */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-
-
+/* ❌ IMPORTANT: remove any prefers-color-scheme blocks that reset bg to white */
+/* If you had something like this, keep it deleted:
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  :root { background-color: #ffffff; }
 }
+*/

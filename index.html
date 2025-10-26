@@ -2,12 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
     <!-- Title & SEO -->
     <title>MBODY Better | Training & Rehabilitation</title>
-    <meta name="description" content="Concierge occupational therapy, hand therapy, and personal training services in NYC. Specialized programs for recovery, wellness, and healthy aging." />
-  
+    <meta
+      name="description"
+      content="Concierge occupational therapy, hand therapy, and personal training services in NYC. Specialized programs for recovery, wellness, and healthy aging."
+    />
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
@@ -16,33 +22,42 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="manifest" href="/site.webmanifest" />
-  
-    <!-- Theme Colors -->
-    <meta name="theme-color" content="#958787" />
-    <meta name="msapplication-TileColor" content="#958787" />
-  
-    <!-- Open Graph (for Facebook / LinkedIn preview) -->
+
+    <!-- Theme / Browser UI colors (lock both light/dark to the same tan) -->
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#BAAA91" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#BAAA91" />
+    <meta name="msapplication-TileColor" content="#BAAA91" />
+
+    <!-- Open Graph -->
     <meta property="og:title" content="MBODY Better | Training & Rehabilitation" />
     <meta property="og:description" content="Empowering function at every stage of life through therapy, fitness, and wellness programs in NYC and virtually." />
     <meta property="og:image" content="/web-app-manifest-512x512.png" />
     <meta property="og:url" content="https://mbodybetter.com" />
     <meta property="og:type" content="website" />
-  
-    <!-- Twitter Card (doesn’t matter if you don’t use Twitter, still helps with embeds) -->
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="MBODY Better | Training & Rehabilitation" />
     <meta name="twitter:description" content="Concierge therapy and training in NYC and virtually. Hand therapy, postpartum recovery, wellness programs, and more." />
     <meta name="twitter:image" content="/web-app-manifest-512x512.png" />
-  
+
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
-    <link rel="preload" as="image" href="/src/assets/logo1.jpg" imagesrcset="/src/assets/logo1.jpg 1x">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- (Optional) Preload a key image -->
+    <link rel="preload" as="image" href="/src/assets/logo1.jpg" imagesrcset="/src/assets/logo1.jpg 1x" />
+
+    <!-- Google Search Console -->
     <meta name="google-site-verification" content="KG4EZx-BAUPsubHXmmZ6tMK669q72EEPkbs-GvIszU4" />
-
   </head>
+
   <body>
     <div id="root"></div>
+    <!-- Vite entry -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
