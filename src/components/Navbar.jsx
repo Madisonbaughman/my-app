@@ -41,7 +41,7 @@ function Navbar() {
         <div id="mobile-menu" className="md:hidden border-t border-black/10 bg-[#A38C79]/90">
           <ul className="mx-auto max-w-6xl px-4 py-4 space-y-3 text-lg">
             {[
-              { label: 'Home', to: '/' },
+             
               { label: 'About', to: '/about' },
               { label: 'Services', to: '/services' },
               { label: 'Contact', to: '/contact' },
