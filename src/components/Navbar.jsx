@@ -17,7 +17,7 @@ function Navbar() {
 
           {/* Desktop links */}
           <ul className="hidden gap-10 md:flex text-lg">
-            <li><Link className="hover:underline" to="/">Home</Link></li>
+           
             <li><Link className="hover:underline" to="/about">About</Link></li>
             <li><Link className="hover:underline" to="/services">Services</Link></li>
             <li><Link className="hover:underline" to="/contact">Contact</Link></li>
