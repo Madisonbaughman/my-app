@@ -84,9 +84,11 @@ function Contact() {
             required
             ></textarea>
         </div>
+        
         <button className="btn" type="submit" disabled={sending}>
           {sending ? 'Sending…' : 'Send Message'}
         </button>
+        <div>Contact: MBodybetter@gmail.com</div>
         </form>
     </div>
   );

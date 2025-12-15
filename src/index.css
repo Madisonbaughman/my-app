@@ -70,9 +70,4 @@ h1 {
   line-height: 1.1;
 }
 
-/* ❌ IMPORTANT: remove any prefers-color-scheme blocks that reset bg to white */
-/* If you had something like this, keep it deleted:
-@media (prefers-color-scheme: light) {
-  :root { background-color: #ffffff; }
-}
-*/
+
