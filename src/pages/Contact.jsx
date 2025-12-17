@@ -122,7 +122,10 @@ function Contact() {
           />
         </div>
         <div className="col-span-2 flex flex-col">
-          <label className=" text-left" htmlFor="message">
+          <label
+            className="font-['Cormorant_Infant'] font-bold leading-[100%] after:content-['*'] after:text-[#F81919] mb-1.5"
+            htmlFor="message"
+          >
             Message:
           </label>
           <textarea

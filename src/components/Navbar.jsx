@@ -42,7 +42,7 @@ function Navbar() {
 
           {/* Mobile toggle */}
           <button
-            className="md:hidden inline-flex items-center justify-center p-3"
+            className="md:hidden inline-flex items-center justify-center p-3 transition-all duration-300 ease-in-out"
             onClick={() => setIsOpen((o) => !o)}
             aria-controls="mobile-menu"
             aria-expanded={isOpen}
