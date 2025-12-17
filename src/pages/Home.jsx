@@ -1,31 +1,39 @@
-import { useEffect, useState } from 'react'
-import logo from '../assets/logo1.jpg'
-
+import { useEffect, useState } from "react";
+import logo from "../assets/logo1.webp";
+import { Link } from "react-router-dom";
 function Home() {
   // simple fade-in on mount (no custom CSS needed)
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
   useEffect(() => {
-    const t = setTimeout(() => setShow(true), 50) // slight delay for transition
-    return () => clearTimeout(t)
-  }, [])
+    const t = setTimeout(() => setShow(true), 50); // slight delay for transition
+    return () => clearTimeout(t);
+  }, []);
 
   return (
     // Fill the screen minus the navbar height; keep center on iPhone
-    <main className="flex items-center justify-center min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-6rem)] px-4">
-      <section className="flex flex-col items-center justify-center w-full text-center py-12 md:py-20">
+    <main className="custom-container pt-10 md:pt-[100px] pb-10 md:pb-[100px]">
+      <section className="flex justify-between gap-10 flex-col lg:flex-row items-center lg:items-start">
+        <div className="w-full max-w-[520px]">
+          <h1 className="text-3xl lg:text-[52px] font-bold font-['Cormorant_Infant'] mb-4">
+            Redefining the Way You Feel in Your Body
+          </h1>
+          <p className="text-lg font-bold text-black/70 font-['Cormorant_Infant'] mb-8">
+            MBODY Better is a holistic wellness space focused on restoring
+            balance, improving movement, and helping you reconnect with your
+            body through mindful care and expert guidance.
+          </p>
+          <Link to="/Contact" className="btn ">
+            CONTACT US
+          </Link>
+        </div>
         <img
           src={logo}
-          alt="MBODY Better logo"
-          className={[
-            "w-[85%] sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-lg h-auto rounded-lg object-contain mx-auto",
-            "transition-all duration-700 ease-out",
-            show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-1"
-          ].join(' ')}
-          fetchPriority="high"
+          alt="home-aside"
+          className="w-full max-w-[467px] sm:h-[460px] rounded-xl object-cover"
         />
       </section>
     </main>
-  )
+  );
 }
 
-export default Home
+export default Home;
