@@ -11,10 +11,7 @@ function Navbar() {
         {/* Taller navbar for better presence */}
         <div className="flex h-20 md:h-24 items-center justify-between">
           {/* Brand */}
-          <Link
-            to="/"
-            className="text-2xl font-semibold tracking-wide font-['Roboto_Slab']"
-          >
+          <Link className="text-2xl font-semibold tracking-wide font-['Cormorant_Garamond']">
             MBODY Better
           </Link>
 

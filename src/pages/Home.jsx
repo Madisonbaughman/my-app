@@ -12,7 +12,7 @@ function Home() {
   return (
     // Fill the screen minus the navbar height; keep center on iPhone
     <main className="custom-container pt-10 md:pt-[100px] pb-10 md:pb-[100px]">
-      <section className="flex justify-between gap-10 flex-col lg:flex-row items-center lg:items-start">
+      <section className="flex justify-between gap-10 flex-col lg:flex-row items-center">
         <div className="w-full max-w-[520px]">
           <h1 className="text-3xl lg:text-[52px] font-bold font-['Cormorant_Infant'] mb-4">
             Redefining the Way You Feel in Your Body
@@ -29,7 +29,7 @@ function Home() {
         <img
           src={logo}
           alt="home-aside"
-          className="w-full max-w-[467px] sm:h-[460px] rounded-xl object-cover"
+          className="w-full max-w-[520px] lg:max-w-[467px] sm:h-[460px] rounded-xl object-cover"
         />
       </section>
     </main>

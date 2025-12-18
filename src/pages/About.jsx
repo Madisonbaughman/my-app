@@ -2,6 +2,7 @@ import photo1 from "../assets/hairup.webp";
 import photo2 from "../assets/hollowHold.webp";
 import { useSEO } from "../hooks/useSEO";
 import { useImagesReady } from "../hooks/imagesHook";
+import { Link } from "react-router-dom";
 
 function About() {
   useSEO({
@@ -63,7 +64,7 @@ function About() {
             perspective to patient care.
           </p>
 
-          <p className="text-para mt-4 ">
+          <p className="text-para mt-4 mb-8">
             In addition to my clinical practice, I am an ACSM Certified Personal
             Trainer with advanced coursework in Pilates, pelvic floor health,
             weight training, and pre- and post-partum fitness and
@@ -71,20 +72,21 @@ function About() {
             allows me to design programs that support recovery, build strength,
             and promote resilience at every stage of life.
           </p>
-          <button
+          <Link
+            to="/Services"
             className="bg-[#756266] text-white w-fit mt-8
           font-['Cormorant_Infant'] py-3 px-6 rounded-[10px] 
           font-bold hover:bg-[#6c5c60] transition-all duration-200 ease-out cursor-pointer"
           >
             Explore Services
-          </button>
+          </Link>
         </div>
       </div>
 
       {/* Row 2: text then image; still stacks on mobile, alternates on larger screens */}
       <div className="flex flex-col-reverse lg:flex-row items-center md:items-start gap-6 justify-between mt-10 lg:mt-20">
         <div className="w-full max-w-[554px] mx-auto lg:mx-0">
-          <p className="text-para">
+          <p className="text-para mb-8">
             At the core of my work is a belief in empowering function through
             movement. Whether guiding clients through postpartum recovery,
             menopausal transitions, return from injury, or healthy aging, I am
@@ -97,7 +99,14 @@ function About() {
             overall well-being, I create accessible, effective programs that fit
             seamlessly into their lifestyle.
           </p>
-          <button className="btn">Explore Services</button>
+          <Link
+            to="/Services"
+            className="bg-[#756266] text-white w-fit mt-8
+          font-['Cormorant_Infant'] py-3 px-6 rounded-[10px] 
+          font-bold hover:bg-[#6c5c60] transition-all duration-200 ease-out cursor-pointer"
+          >
+            Explore Services
+          </Link>
         </div>
         <div className="md:h-[487px] w-full lg:w-auto">
           <img

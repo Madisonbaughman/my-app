@@ -91,7 +91,7 @@ function Services() {
               <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
                 Personal Training &amp; Wellness
               </h6>
-              <p className="font-['Cormorant_Infant'] font-bold leading-[150%]">
+              <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                 Concierge training (in-home or on-site in NYC) Concierge
                 training (in-home or on-site in NYC) Personal Training and
                 Wellness Strength training Pilates-informed movement Functional
@@ -118,7 +118,7 @@ function Services() {
               <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
                 Rehabilitation &amp; Hand Therapy
               </h6>
-              <p className="font-['Cormorant_Infant'] font-bold leading-[150%]">
+              <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                 Orthopedic and neurological rehab Certified Hand Therapy (CHT)
                 for hand, wrist, elbow, and shoulder Custom splint fabrication
                 Recovery after injury, surgery, or repetitive strain Arthritis,
@@ -141,7 +141,7 @@ function Services() {
               <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
                 Specialized Remote Programs
               </h6>
-              <p className="font-['Cormorant_Infant'] font-bold leading-[150%]">
+              <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                 Virtual Strength Training and Programming Prenatal & postpartum
                 exercise support (without internal exams) Rehab-informed
                 training for osteoporosis, osteopenia, and osteoarthritis
