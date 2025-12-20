@@ -54,7 +54,7 @@ function Services() {
           )}
         </div>
         <div className="w-full max-w-[564px] mx-auto md:mx-0">
-          <p className="text-para mb-8">
+          <p className="text-para ">
             I provide concierge occupational therapy and personal training
             services, designed to bring high-quality care and movement coaching
             directly to you. Whether in the comfort of your home, a private gym,
@@ -64,9 +64,6 @@ function Services() {
             confidently through life transitions—all with the convenience of
             care tailored to their schedule and location.
           </p>
-          <Link to="/Contact" className="btn ">
-            CONTACT US
-          </Link>
         </div>
       </div>
 

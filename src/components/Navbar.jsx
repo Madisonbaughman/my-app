@@ -11,7 +11,10 @@ function Navbar() {
         {/* Taller navbar for better presence */}
         <div className="flex h-20 md:h-24 items-center justify-between">
           {/* Brand */}
-          <Link className="text-2xl font-semibold tracking-wide font-['Cormorant_Garamond']">
+          <Link
+            to="/"
+            className="text-2xl font-semibold tracking-wide font-['Cormorant_Garamond']"
+          >
             MBODY Better
           </Link>
 
@@ -19,19 +22,25 @@ function Navbar() {
           <ul className="hidden gap-10 md:flex text-lg">
             <li>
               <Link
-                className="hover:underline font-['Roboto_Slab']"
+                className="hover:underline font-['Cormorant_Garamond'] font-semibold"
                 to="/about"
               >
                 About
               </Link>
             </li>
             <li>
-              <Link className="hover:underline font-p[]" to="/services">
+              <Link
+                className="hover:underline font-['Cormorant_Garamond'] font-semibold"
+                to="/services"
+              >
                 Services
               </Link>
             </li>
             <li>
-              <Link className="hover:underline font-p[]" to="/contact">
+              <Link
+                className="hover:underline font-['Cormorant_Garamond'] font-semibold"
+                to="/contact"
+              >
                 Contact
               </Link>
             </li>
@@ -65,7 +74,7 @@ function Navbar() {
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="block rounded-md px-3 py-2 hover:bg-black/10"
+                  className="block rounded-md px-3 py-2 hover:bg-black/10 font-semibold font-['Cormorant_Garamond']"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}

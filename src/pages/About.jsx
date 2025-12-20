@@ -64,7 +64,7 @@ function About() {
             perspective to patient care.
           </p>
 
-          <p className="text-para mt-4 mb-8">
+          <p className="text-para mt-4">
             In addition to my clinical practice, I am an ACSM Certified Personal
             Trainer with advanced coursework in Pilates, pelvic floor health,
             weight training, and pre- and post-partum fitness and
@@ -72,14 +72,6 @@ function About() {
             allows me to design programs that support recovery, build strength,
             and promote resilience at every stage of life.
           </p>
-          <Link
-            to="/Services"
-            className="bg-[#756266] text-white w-fit mt-8
-          font-['Cormorant_Infant'] py-3 px-6 rounded-[10px] 
-          font-bold hover:bg-[#6c5c60] transition-all duration-200 ease-out cursor-pointer"
-          >
-            Explore Services
-          </Link>
         </div>
       </div>
 

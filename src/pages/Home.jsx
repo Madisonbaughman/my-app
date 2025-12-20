@@ -14,15 +14,16 @@ function Home() {
     <main className="custom-container pt-10 md:pt-[100px] pb-10 md:pb-[100px]">
       <section className="flex justify-between gap-10 flex-col lg:flex-row items-center">
         <div className="w-full max-w-[520px]">
-          <h1 className="text-3xl lg:text-[52px] font-bold font-['Cormorant_Infant'] mb-4">
-            Redefining the Way You Feel in Your Body
+          <h1 className="text-2xl sm:text-3xl lg:text-[46px] font-bold font-['Cormorant_Infant'] mb-4">
+            Move better. Feel stronger. Live well in your body. Strength
+            training and rehabilitation in NYC
           </h1>
           <p className="text-lg font-bold text-black/70 font-['Cormorant_Infant'] mb-8">
             MBODY Better is a holistic wellness space focused on restoring
             balance, improving movement, and helping you reconnect with your
             body through mindful care and expert guidance.
           </p>
-          <Link to="/Contact" className="btn ">
+          <Link to="/Contact" className="btn">
             CONTACT US
           </Link>
         </div>

@@ -54,7 +54,7 @@ function Contact() {
   return (
     <div className="custom-container flex justify-between flex-col lg:flex-row gap-y-10">
       <div className="w-full max-w-[508px] lg:max-w-[400px] mx-auto lg:mx-0">
-        <h2 className="text-3xl lg:text-[42px] font-bold font-['Cormorant_Infant'] mb-4">
+        <h2 className="text-2xl sm:text-3xl lg:text-[42px] font-bold font-['Cormorant_Infant'] mb-4">
           Connect With Us
         </h2>
         <p className="font-bold font-['Cormorant_Infant'] text-black/70 mb-10">
