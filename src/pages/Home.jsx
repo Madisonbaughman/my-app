@@ -14,7 +14,7 @@ function Home() {
     <main className="custom-container pt-10 md:pt-[100px] pb-10 md:pb-[100px]">
       <section className="flex justify-between gap-10 flex-col lg:flex-row items-center">
         <div className="w-full max-w-[520px]">
-          <h1 className="text-2xl sm:text-3xl lg:text-[46px] font-bold font-['Cormorant_Infant'] mb-4">
+          <h1 className="text-[26px] sm:text-3xl lg:text-[46px] font-bold font-['Cormorant_Infant'] mb-4">
             Move better. Feel stronger. Live well in your body. Strength
             training and rehabilitation in NYC
           </h1>
