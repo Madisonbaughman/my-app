@@ -89,11 +89,16 @@ function Services() {
                   Personal Training &amp; Wellness
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Concierge training (in-home or on-site in NYC) Concierge
-                  training (in-home or on-site in NYC) Personal Training and
-                  Wellness Strength training Pilates-informed movement
-                  Functional fitness programs Life stage–specific training
-                  (postpartum recovery, osteoporosis, healthy aging)
+                  Rehabilitation & Occupational Therapy Personalized,
+                  evidence-based rehabilitation focused on restoring function,
+                  improving movement quality, and supporting long-term
+                  resilience. Services include upper-extremity and hand therapy,
+                  orthopedic and neurological rehabilitation, and functional
+                  movement-based care tailored to daily life demands and
+                  individual goals. Treatment integrates manual therapy,
+                  therapeutic exercise, and movement re-education to support
+                  recovery, independence, and a confident return to meaningful
+                  activity.
                 </p>
               </div>
             </div>
@@ -117,11 +122,15 @@ function Services() {
                   Rehabilitation &amp; Hand Therapy
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Orthopedic and neurological rehab Certified Hand Therapy (CHT)
-                  for hand, wrist, elbow, and shoulder Custom splint fabrication
-                  Recovery after injury, surgery, or repetitive strain
-                  Arthritis, tendon/ligament injuries, nerve compressions,
-                  rotator cuff, fractures, CRPS
+                  Training, Strength & Conditioning Concierge, individualized
+                  training offered in-home or in private gym settings.
+                  Programming includes generalized strength training as well as
+                  more targeted work for pre- and postnatal clients,
+                  perimenopause and menopause, and individuals with orthopedic
+                  or neurological considerations. Sessions blend strength-based
+                  and Pilates-based modalities as appropriate, with an emphasis
+                  on functional movement, mobility, and progressive loading to
+                  support performance, resilience, and long-term health.
                 </p>
               </div>
             </div>
@@ -145,16 +154,15 @@ function Services() {
                   Specialized Remote Programs
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Virtual Strength Training and Programming Prenatal &
-                  postpartum exercise support (without internal exams)
-                  Rehab-informed training for osteoporosis, osteopenia, and
-                  osteoarthritis Preventive care programs for long-term joint
-                  and muscle health I also work holistically with other trusted
-                  practitioners to ensure clients receive comprehensive support.
-                  When needed, I connect clients with my network of recommended
-                  pelvic floor specialists, physical therapists, dietitians, and
-                  physicians — collaborating across disciplines to help you feel
-                  your best.
+                  Integrated & Collaborative Care When appropriate, care extends
+                  beyond individual sessions through collaboration with a
+                  trusted and vetted network of professionals. This includes
+                  physical therapists, massage therapists, psychologists,
+                  dietitians and nutritionists, physiatrists, orthopedists, and
+                  doulas. Working collaboratively allows for a more holistic,
+                  integrated approach—supporting clients through complex needs,
+                  life transitions, and long-term health goals with thoughtful
+                  coordination across disciplines.
                 </p>
               </div>
             </div>

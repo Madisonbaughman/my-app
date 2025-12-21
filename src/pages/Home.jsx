@@ -18,7 +18,7 @@ function Home() {
             Move better. Feel stronger
           </h1>
           <p className="text-lg font-bold text-black/70 font-['Cormorant_Infant'] mb-8">
-            Strength training and rehabilitation in NYC
+            Strength training and rehabilitation in NYC .
           </p>
           <Link to="/Contact" className="btn">
             CONTACT US
