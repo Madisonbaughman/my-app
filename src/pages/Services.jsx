@@ -85,11 +85,10 @@ function Services() {
                 )}
               </div>
               <div className="p-4">
-                <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
-                  Personal Training &amp; Wellness
+                <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
+                  Rehabilitation & Occupational Therapy Personalized .
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Rehabilitation & Occupational Therapy Personalized,
                   evidence-based rehabilitation focused on restoring function,
                   improving movement quality, and supporting long-term
                   resilience. Services include upper-extremity and hand therapy,
@@ -118,19 +117,19 @@ function Services() {
                 )}
               </div>
               <div className="p-4">
-                <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
-                  Rehabilitation &amp; Hand Therapy
+                <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
+                  Training, Strength & Conditioning .
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Training, Strength & Conditioning Concierge, individualized
-                  training offered in-home or in private gym settings.
-                  Programming includes generalized strength training as well as
-                  more targeted work for pre- and postnatal clients,
-                  perimenopause and menopause, and individuals with orthopedic
-                  or neurological considerations. Sessions blend strength-based
-                  and Pilates-based modalities as appropriate, with an emphasis
-                  on functional movement, mobility, and progressive loading to
-                  support performance, resilience, and long-term health.
+                  Concierge, individualized training offered in-home or in
+                  private gym settings. Programming includes generalized
+                  strength training as well as more targeted work for pre- and
+                  postnatal clients, perimenopause and menopause, and
+                  individuals with orthopedic or neurological considerations.
+                  Sessions blend strength-based and Pilates-based modalities as
+                  appropriate, with an emphasis on functional movement,
+                  mobility, and progressive loading to support performance,
+                  resilience, and long-term health.
                 </p>
               </div>
             </div>
@@ -150,18 +149,18 @@ function Services() {
                 )}
               </div>
               <div className="p-4">
-                <h6 className="mb-2 text-2xl font-['Cormorant_Infant'] font-bold">
-                  Specialized Remote Programs
+                <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
+                  Integrated & Collaborative Care .
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Integrated & Collaborative Care When appropriate, care extends
-                  beyond individual sessions through collaboration with a
-                  trusted and vetted network of professionals. This includes
-                  physical therapists, massage therapists, psychologists,
-                  dietitians and nutritionists, physiatrists, orthopedists, and
-                  doulas. Working collaboratively allows for a more holistic,
-                  integrated approach—supporting clients through complex needs,
-                  life transitions, and long-term health goals with thoughtful
+                  When appropriate, care extends beyond individual sessions
+                  through collaboration with a trusted and vetted network of
+                  professionals. This includes physical therapists, massage
+                  therapists, psychologists, dietitians and nutritionists,
+                  physiatrists, orthopedists, and doulas. Working
+                  collaboratively allows for a more holistic, integrated
+                  approach—supporting clients through complex needs, life
+                  transitions, and long-term health goals with thoughtful
                   coordination across disciplines.
                 </p>
               </div>
