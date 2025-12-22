@@ -86,15 +86,15 @@ function Services() {
               </div>
               <div className="p-4">
                 <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
-                  Rehabilitation & Occupational Therapy Personalized .
+                  Rehabilitation & Occupational Therapy .
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  evidence-based rehabilitation focused on restoring function,
-                  improving movement quality, and supporting long-term
-                  resilience. Services include upper-extremity and hand therapy,
-                  orthopedic and neurological rehabilitation, and functional
-                  movement-based care tailored to daily life demands and
-                  individual goals. Treatment integrates manual therapy,
+                  Personalized, evidence-based rehabilitation focused on
+                  restoring function, improving movement quality, and supporting
+                  long-term resilience. Services include upper-extremity and
+                  hand therapy, orthopedic and neurological rehabilitation, and
+                  functional movement-based care tailored to daily life demands
+                  and individual goals. Treatment integrates manual therapy,
                   therapeutic exercise, and movement re-education to support
                   recovery, independence, and a confident return to meaningful
                   activity.
