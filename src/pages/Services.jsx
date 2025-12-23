@@ -86,7 +86,7 @@ function Services() {
               </div>
               <div className="p-4">
                 <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
-                  Rehabilitation & Occupational Therapy .
+                  Rehabilitation & Occupational Therapy
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                   Personalized, evidence-based rehabilitation focused on
@@ -118,7 +118,7 @@ function Services() {
               </div>
               <div className="p-4">
                 <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
-                  Training, Strength & Conditioning .
+                  Training, Strength & Conditioning
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                   Concierge, individualized training offered in-home or in
@@ -150,7 +150,7 @@ function Services() {
               </div>
               <div className="p-4">
                 <h6 className="mb-2 text-xl sm:text-2xl font-['Cormorant_Infant'] font-bold">
-                  Integrated & Collaborative Care .
+                  Integrated & Collaborative Care
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
                   When appropriate, care extends beyond individual sessions
