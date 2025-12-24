@@ -89,15 +89,15 @@ function Services() {
                   Training, Strength & Conditioning
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Personalized, evidence-based rehabilitation focused on
-                  restoring function, improving movement quality, and supporting
-                  long-term resilience. Services include upper-extremity and
-                  hand therapy, orthopedic and neurological rehabilitation, and
-                  functional movement-based care tailored to daily life demands
-                  and individual goals. Treatment integrates manual therapy,
-                  therapeutic exercise, and movement re-education to support
-                  recovery, independence, and a confident return to meaningful
-                  activity.
+                  Concierge, individualized training offered in-home or in
+                  private gym settings. Programming includes generalized
+                  strength training as well as more targeted work for pre- and
+                  postnatal clients, perimenopause and menopause, and
+                  individuals with orthopedic or neurological considerations.
+                  Sessions blend strength-based and Pilates-based modalities as
+                  appropriate, with an emphasis on functional movement,
+                  mobility, and progressive loading to support performance,
+                  resilience, and long-term health.
                 </p>
               </div>
             </div>
@@ -121,15 +121,15 @@ function Services() {
                   Rehabilitation & Occupational Therapy
                 </h6>
                 <p className="font-['Cormorant_Infant'] font-normal leading-[150%]">
-                  Concierge, individualized training offered in-home or in
-                  private gym settings. Programming includes generalized
-                  strength training as well as more targeted work for pre- and
-                  postnatal clients, perimenopause and menopause, and
-                  individuals with orthopedic or neurological considerations.
-                  Sessions blend strength-based and Pilates-based modalities as
-                  appropriate, with an emphasis on functional movement,
-                  mobility, and progressive loading to support performance,
-                  resilience, and long-term health.
+                  Personalized, evidence-based rehabilitation focused on
+                  restoring function, improving movement quality, and supporting
+                  long-term resilience. Services include upper-extremity and
+                  hand therapy, orthopedic and neurological rehabilitation, and
+                  functional movement-based care tailored to daily life demands
+                  and individual goals. Treatment integrates manual therapy,
+                  therapeutic exercise, and movement re-education to support
+                  recovery, independence, and a confident return to meaningful
+                  activity.
                 </p>
               </div>
             </div>
