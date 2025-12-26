@@ -8,7 +8,6 @@ import Icon from "../components/Icon";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
-    lname: "",
     email: "",
     message: "",
   });
@@ -25,6 +24,7 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     if (
       !formData.name.trim() ||
       !/\S+@\S+\.\S+/.test(formData.email) ||
@@ -33,7 +33,9 @@ function Contact() {
       alert("Please fill out all fields with a valid email.");
       return;
     }
+
     setSending(true);
+
     try {
       const result = await emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -41,15 +43,17 @@ function Contact() {
         e.target,
         { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
       );
+
       console.log(result.text);
       alert("Message sent successfully!");
+
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
-      console.log(error.text);
+      console.error(error);
       alert("Something went wrong, please try again.");
     } finally {
       setSending(false);
     }
-    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
@@ -68,15 +72,15 @@ function Contact() {
         </a>
       </div>
       <form
-        className="w-full max-w-[508px] mx-auto lg:mx-0 grid grid-cols-2 gap-4"
+        className="w-full max-w-[508px] mx-auto lg:mx-0 grid grid-cols-1 gap-4"
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col gap-1.5 col-span-2 sm:col-span-1">
+        <div className="flex flex-col gap-1.5 ">
           <label
             className="font-['Cormorant_Infant'] font-bold leading-[100%] after:content-['*'] after:text-[#F81919]"
             htmlFor="name"
           >
-            First Name
+            Full Name
           </label>
           <input
             className="fillOut"
@@ -88,24 +92,7 @@ function Contact() {
             required
           />
         </div>
-        <div className="flex flex-col gap-1.5 col-span-2 sm:col-span-1">
-          <label
-            className="font-['Cormorant_Infant'] font-bold leading-[100%] after:content-['*'] after:text-[#F81919]"
-            htmlFor="lname"
-          >
-            Last Name*
-          </label>
-          <input
-            className="fillOut"
-            type="text"
-            id="lname"
-            name="lname"
-            value={formData.lname}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="flex flex-col gap-1.5 col-span-2">
+        <div className="flex flex-col gap-1.5 ">
           <label
             className="font-['Cormorant_Infant'] font-bold leading-[100%] after:content-['*'] after:text-[#F81919]"
             htmlFor="email"
@@ -122,7 +109,7 @@ function Contact() {
             required
           />
         </div>
-        <div className="col-span-2 flex flex-col">
+        <div className="flex flex-col">
           <label
             className="font-['Cormorant_Infant'] font-bold leading-[100%] after:content-['*'] after:text-[#F81919] mb-1.5"
             htmlFor="message"
@@ -139,11 +126,7 @@ function Contact() {
             required
           ></textarea>
         </div>
-        <button
-          className="btn col-span-2 w-full !mt-4"
-          type="submit"
-          disabled={sending}
-        >
+        <button className="btn  w-full !mt-4" type="submit" disabled={sending}>
           {sending ? "Submit" : "Submit"}
         </button>
       </form>
