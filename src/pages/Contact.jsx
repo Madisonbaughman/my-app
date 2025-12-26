@@ -8,6 +8,7 @@ import Icon from "../components/Icon";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
+    lname: "",
     email: "",
     message: "",
   });
@@ -99,7 +100,7 @@ function Contact() {
             type="text"
             id="lname"
             name="lname"
-            value={formData.name}
+            value={formData.lname}
             onChange={handleChange}
             required
           />
